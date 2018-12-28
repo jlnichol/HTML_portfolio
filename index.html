@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="stylesheet"
+  href="main.css">
+  <script type="text/javascript">
+var done = 0;
+function HideText()
+{
+    if(done == 0) {
+    document.getElementById("title").innerHTML = "The Incredibly Awesome Portfolio of Jerica Nicholls!"
+    document.getElementById("title").style.color = "#A77802"
+    done = 1;
+    } else {
+    document.getElementById("title").style.color = "#342809"
+    document.getElementById("title").innerHTML = "A Portfolio of Jerica Nicholls"
+    done = 0;
+    }
+}
+</script>
+ </head>
+ <body>
+ <div id="container">
+ <h1 id="title">Portfolio of Jerica Nicholls</h1>
+ <img class="photo" src="jerica.jpg"alt="A picture of me">
+ <button type="button" onclick="HideText()">
+Click Here to See Something Different</button>
+<div>
+ <h2 id="nontitle">About</h2>
+ <p>I am a Senior at Brigham Young University, and this April I will graduate with a degree in English Language, along with minors in editing and computer science.
+ Following graduation, I would like to find work as a technical writer or editor. My computer science classes have taught me useful technical skills to prepare for such positions. 
+ This portfolio is meant to display some of those skills and demonstrate that I have some ability to implement basic web programming.</p>
+ </div>
+ <div>
+ <h2 id="nontitle">Projects</h2>
+  <p>In the links below you will find pages that demonstrate various projects I have worked on to improve my skills with HTML, CSS, and javascript.</p>
+   <ol>
+    <li><a href="project1.html">Javascript Colors</a>: A page where I change the background with a click of a button.</li>
+    <li><a href="project2.html">Cookie Invitation</a>: You won't want to miss this tasty page. And it comes with boxed sections to make it more stylish.</li>
+    <li><a href="project3.html">Traveling around the world</a>: My idea of a great vacation.</li>
+   </ol>
+   </div>
+   <div>
+ <h2 id="nontitle">Work Experience</h2>
+ <h3>Current Involvement</h3>
+ <p>I work on campus as a research assistant for the Religion department, and I work with another professor to edit <em>The Bridge</em>, which is a journal produced by the Danish
+ American Heritage Society. I also volunteer teaching ESL classes through the International Rescue Committee in Salt Lake City.</p>
+ <h3>Past Employment</h3>
+ <p>During the summer of 2018, I worked as a technical writer intern for Ivanti, a company that creates product for IT management.</p>
+ <p>From September 2017 to May 2018, I worked as a computer science teaching assistant at BYU and as a volunteer acquisitions editor for the BYU <em>Leading Edge</em> magazine. I also did some freelance editing work
+ in early 2018, primarily doing source checking. </p>
+ <p>For the first half of 2017 I was studying abroad and was not formally employed, but in fall of 2016 I was a content developer intern for Stone Mantel, a business consulting company.</p>
+ <p>For more information about what tasks I performed at these positions, or to see samples of my editing work, please see the additional links provided below.</p>
+ </div>
+ <h3>Additional Links</h3>
+ <ul><li><a href="https://www.linkedin.com/in/jerica-nicholls/">LinkedIn Profile</a></li>
+ <li><a href="https://github.com/jlnichol">GitHub</a></li>
+ <li><a href="https://programmingeditor.wordpress.com/">Editing Portfolio</a></li>
+ </ul>
+ <img src="sandcastle.svg" alt="sandcastle" style="width:128px;height:128px;">
+ </body>
+ </div>
+</html>

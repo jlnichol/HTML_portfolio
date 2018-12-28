@@ -1,0 +1,41 @@
+
+
+body {
+    color: #342809;
+    background-color: #FED777;
+}
+.photo {
+    height: 10%;
+    width: 10%;
+    border-style: groove;
+    border-color: #342809;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 {
+    color: #A77802;
+}
+h2 {
+    background: #A77802;
+}
+
+#container {
+ border: 10px solid #342809;
+ padding: 8px;
+}
+#title {
+            background: #FFF5DC;
+            border: 2px double;
+            padding: 6px;
+            text-align: center;
+        }
+
